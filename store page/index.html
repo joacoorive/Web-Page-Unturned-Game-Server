@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dofus Community</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/dofus.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ae60eb01f.js" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+</head>
+<body class="bg-dark">
+    <script src="https://www.paypal.com/sdk/js?client-id=AYOHSBFFfjFQBy9gbcN7E0nLDjhyNpeUpM_wNSSMq9IzgSV90ZoXeNOzXJtdrUVYix2OfzoFgMuSyS6C"></script>
+    
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+            -ms-overflow-style: none;
+        }
+        body {
+             overflow-x: hidden;
+        }
+        </style>
+    <nav class="navbar navbar-expand-lg navbar-dark mt-2" >
+        <div class="container-lg ">
+            <a href="#" class="nav-brand">
+                <img style="height: 50px;" src="img/dofus.png" alt="Dofus Community Logo">
+            </a>
+            <div class="navbar-brand fs-2 ps-3" style="color: #E0E1DD; font-family: Rubik, serif;">Dofus Community</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-2 mb-2 mb-lg-0 pt-2">
+                    <li class="nav-item h6"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item h6"><a class="nav-link" href="#tienda" data-scroll>Tienda</a></li>
+                    <li class="nav-item h6"><a class="nav-link" href="https://discord.gg/SKtYgy3" >Discord</a></li>
+                    <li class="nav-item h6"><a class="nav-link" href="#">Sobre Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container-lg  mt-5 px-5">
+        <div class="bg-dark pt-4 mt-4 pb-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pe-5 pb-5">
+                    <h1 class="fs-2 pt-3" style="color: #E0E1DD; font-family: Rubik, serif;" >Dofus Community</h1>
+                    <h3 class="text-white-50 fs-5 ps-2 pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, commodi atque id neque quisquam, iure est eos ut ipsa quas ea enim placeat.</h3>
+                    <div class="ms-3 mt-2">
+                        <a href="#"><button class="btn btn-secondary fw-bold shadow">Mas Sobre Nosotros</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-5">
+                    <div class="row">
+                        <div class="col-md-6 mw-25" >
+                            <div class="card my-3 rounded-3 bg-light" >
+                                <div class="card-body">
+                                    <div class="rounded-circle row align-items-center ps-1 ms-2" style="width: 50px; height: 50px; background-color: #EF4444;">
+                                        <i class="fas fa-address-book text-light" style="font-size: 20px;"></i>
+                                    </div>
+                                    <h5 class="fs-6 pt-3 ps-2"  style="font-family: rubik, Sans-serif;">Administracion</h5>
+                                    <p  style="font-family: raleway, Sans-serif;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi quod neque voluptatum esse.</p>
+                                </div>
+                            </div>
+                            <div class="card mt-3 rounded-3 bg-light ">
+                                <div class="card-body">
+                                    <div class=" rounded-circle row align-items-center ps-1 ms-2 " style="width: 50px; height: 50px; background-color: #3B82F6;">
+                                        <i class="fas fa-address-book text-light" style="font-size: 20px;"></i>
+                                    </div>
+                                    <h5 class="fs-6 pt-3 ps-2"  style="font-family: rubik, Sans-serif;">Inovacion</h5>
+                                    <p  style="font-family: raleway, Sans-serif;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi quod neque voluptatum esse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-lg-5 mt-lg-5 mw-25" >
+                            <div class="card my-3 rounded-3 ">
+                                <div class="card-body">
+                                    <div class=" rounded-circle row align-items-center ps-1 ms-2" style="width: 50px; height: 50px; background-color: #F59E0B;">
+                                        <i class="fas fa-address-book text-light" style="font-size: 20px;"></i>
+                                    </div>
+                                    <h5 class="fs-6 pt-3 ps-2"  style="font-family: rubik, Sans-serif;">Experiencia</h5>
+                                    <p  style="font-family: raleway, Sans-serif;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi quod neque voluptatum esse.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+      <div id="tienda" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M15.24,200.81 C149.99,150.00 237.02,252.13 543.45,240.28 L523.14,88.31 L-40.06,18.25 Z" style="stroke: none; fill: #172b4d;"></path></svg></div>
+    </section>
+    <main class="" style="background-color: #172b4d;">
+        <div class="text-center pb-5 mb-5">
+            <h4 class="text-light fs-1" style="font-family: Rubik, serif;">Tienda Dofus</h4>
+            <p class="text-light pt-2" style="color: #E0E1DD; font-family: raleway, Sans-serif;">Todas las compras realizadas rigen bajo nuestros Terminos y Condiciones</p>
+            <button type="button" class="btn btn-secondary fw-bold fs-6 shadow" data-bs-toggle="modal" data-bs-target="#tcm-1">Terminos y Condiciones</button>
+            <div class="modal fade" id="tcm-1" tabindex="-1" aria-labelledby="tcm-2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="tcm-2">Terminos y Condiciones</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-start">
+                            <h4 class="fw-bold fs-6">Politicas de Rembolso:</h4>
+                            <p>Todos los articulos y paquetes de la tienda virtual que Dofus Community vende, se consideran articulos virtuales. no es posible que el vendedor pueda recuperar los articulos o paquetes virtuales utilizados por el comprador dentro de nuestros servidores.</p>
+                            <p>Una vez sea realizada y confirmada la compra de cualquier articulo o paquete dentro de la tienda virtual de Dofus Community la cual sea realizada mediante cualquier metodo de pago, cualquier devolucion o rembolso del producto sera rechazada</p><br>
+                            <h4 class="fw-bold fs-6">Politicas de Garantia</h4>
+                            <p>Se garantiza que las características de nuestros paquetes son funcionales, en caso contrario, si alguna característica se encuentra con fallos, reportarlo y lo solucionaremos lo mas rápido posible. En caso de un reinicio (Wipe), no se perderá ningún paquete excepto los paquetes y articulos virtuales consumibles, como la experiencia y dinero dentro del juego, esta ultima no se regresará si han transcurrido más de 15 días de que el paquete virtual sea entregado. </p><br>
+                            <h4 class="fw-bold fs-6">Politica de Cambios en paquetes y articulos</h4>
+                            <p>Nos tomamos la libertad de realizar cambios en la descripción y características de nuestros paquetes sin realizar algún aviso previo.</p><br>
+                            <h3 class="fw-bold fs-5">En el caso de ignorar o evitar cualquiera de nuestras politicas, resultara en la prohibicion permanente al ingreso de nuestros servidores sin derecho de apelacion</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-lg">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 gp-4">
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#sellRol1">Ver mas</button>
+                                <div class="modal fade" id="sellRol1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sellRolLabel1" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="sellRolLabel1"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50</li>
+                                                            <li>Se te permite escribir por chat global, solo</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10</li>
+                                                            <li>El inventario de tus manos es de 4x2</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar ahora</button>
+                                                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-xl">
+                                                          <div class="modal-content" style="margin-top: 100px">
+                                                            <div class="modal-header">
+                                                              <h5 class="modal-title" id="exampleModalLabel">Planes de pagos</h5>
+                                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="pt-5 px-5 mx-5">
+                                                                    <h3 class="text-center">Selecciona tu plan de pago favorito para tu rol Terrorista</h3>
+                                                                    <div class="row row-cols-1 row-cols-md-3 gp-4 mw-50">
+                                                                        <div class="col my-3">
+                                                                            <div class="card rounded shadow text-center text-dark bg-light">
+                                                                                <div class="card-header">
+                                                                                    <h4 class="my-0 fw-normal">1 Mes</h4>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <h1 class="card-title mb-4">13$</h1>
+                                                                                    <ul class="text-start">
+                                                                                        <li>Duracion: 30 Dias</li>
+                                                                                        <li>Todas las ventajas mencionadas del rol</li>
+                                                                                        <li>Activacion instantanea</li>
+                                                                                        <li>Soporte administrativo perzonalizado</li>
+                                                                                    </ul>
+                                                                                    <div class="my-2 mt-3">
+                                                                                        <a href="#"><button type="button" class="btn text-light text-center w-100" style="background-color: #009ee3;">Mercado pago</button></a>
+                                                                                    </div>
+                                                                                    <div id="paypal-button-container"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col my-3">
+                                                                            <div class="card rounded shadow text-center text-dark bg-light">
+                                                                                <div class="card-header">
+                                                                                    <h4 class="my-0 fw-normal">3 Mes</h4>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <h1 class="card-title mb-4">13$</h1>
+                                                                                    <ul class="text-start">
+                                                                                        <li>Duracion: 90 Dias</li>
+                                                                                        <li>Todas las ventajas mencionadas del rol</li>
+                                                                                        <li>Activacion instantanea</li>
+                                                                                        <li>Soporte administrativo perzonalizado</li>
+                                                                                    </ul>
+                                                                                    <div class="my-2 mt-3">
+                                                                                        <a href="#"><button type="button" class="btn text-light text-center w-100" style="background-color: #009ee3;">Mercado pago</button></a>
+                                                                                    </div>
+                                                                                    <div id="paypal-button-container"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col my-3">
+                                                                            <div class="card rounded shadow text-center text-dark bg-light">
+                                                                                <div class="card-header">
+                                                                                    <h4 class="my-0 fw-normal">Permanente</h4>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <h1 class="card-title mb-4">13$</h1>
+                                                                                    <ul class="text-start">
+                                                                                        <li>Duracion: Permanente</li>
+                                                                                        <li>Todas las ventajas mencionadas del rol</li>
+                                                                                        <li>Activacion instantanea</li>
+                                                                                        <li>Soporte administrativo perzonalizado</li>
+                                                                                    </ul>
+                                                                                    <div class="my-2 mt-3">
+                                                                                        <a href="#"><button type="button" class="btn text-light text-center w-100" style="background-color: #009ee3;">Mercado pago</button></a>
+                                                                                    </div>
+                                                                                    <div id="paypal-button-container"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card my-3 rounded shadow-lg">
+                        <img class="p-1 rounded img-fluid" src="img/vip.jpg" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver mas</button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel"  style="font-family: rubik, sans-serif;">Terrorista <span class="text-end" style="color: green; font-family: sans-serif; font-weight: 700;">10.00 USD</span></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselRole1" class="carousel slide" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                        <div class="carousel-item" data-bs-interval="10000">
+                                                            <img src="img/Level.png" class="img-fluid" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselRole1" role="button" data-bs-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselRole1" role="button" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </a>
+                                                </div>
+                                                <div class="text-start pt-3">
+                                                    
+                                                    <div>
+                                                        <h4 class="fs-6 fw-bold">Recompensas dentro del servidor</h4>
+                                                        <ul class="text-start pt-1 ms-1">
+                                                            <li>El límite del automático del garaje virtual es de: 4.</li>
+                                                            <li>El límite de barricadas y estructuras es de: 50..</li>
+                                                            <li>Se te permite escribir por chat global, solo ((OOC)).</li>
+                                                            <li>Posibilidad de utilizar texto de colores y tamaños en el chat del servidor.</li>
+                                                            <li>Formato exclusivo en el chat del servidor.</li>
+                                                            <li>Se permite crear encuestas.</li>
+                                                            <li>El límite del garaje virtual es de: 10.</li>
+                                                            <li>El inventario de tus manos es de 4x2.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end">
+                                                    <a href="#"><button class="btn btn-primary ">Compar ahora</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
